@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<config>
-    <jdbc>
-        <encoding>?encoding=win1251</encoding>
-        <driver>org.firebirdsql.jdbc.FBDriver</driver>
-        <username>SYSDBA</username>
-        <password>masterkey</password>
-    </jdbc>
-</config>

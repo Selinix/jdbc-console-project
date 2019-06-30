@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="TestRedSoft:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/TestRedSoft_jar</output-path>
-    <root id="archive" name="TestRedSoft.jar">
-      <element id="module-output" name="JDBCApp" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../../Jaybird-3.0.5-JDK_1.8/jaybird-full-3.0.5.jar" path-in-jar="/" />
-    </root>
-  </artifact>
-</component>
