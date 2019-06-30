@@ -1,0 +1,9 @@
+SELECT book_shops.name_shop, book_shops.adres_shop, SUM(books.price_book * recipes.amount)
+FROM recipes, book_shops, books
+WHERE book_shops.id_shop = recipes.id_shop AND books.id_book = recipes.id_book AND book_shops.id_shop = 1
+GROUP BY book_shops.name_shop, book_shops.adres_shop
+
+/*
+Вывод сводной информации вида "Название магазина", "Адрес", "Общая сумма заказа"
+(если указан идентификатора магазина выводить данные только по нему, иначе по всем).
+*/
